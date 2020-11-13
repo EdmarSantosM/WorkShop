@@ -1,0 +1,11 @@
+//Estrutura  do projeto Asp. Net  Core.
+
+
+//wwwroot ->  onde  se encontra os arquivos  estáticos  necessários que  precisamos incluir  no Asp .Net Core ( css , images , js, jquery, bootstrap, etc ).
+
+//Pages -> Estruturas  de páginas  modelo ( Index, Contato,  etc)  seguindo  o padrão  Bootstrap.
+
+//Startup. cs  -> Onde é  setado as configurações  para  autenticação login/user.
+
+//Program.cs  -> Onde  é  executado / Inicializado  a  aplicação. 
+
