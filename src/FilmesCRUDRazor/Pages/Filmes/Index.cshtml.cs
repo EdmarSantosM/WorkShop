@@ -59,7 +59,7 @@ namespace FilmesCRUDRazor.Pages.Filmes
             #endregion
 
             Generos = new SelectList(await queryGenero.Distinct().ToListAsync());
-            Filme = await _context.Filme.ToListAsync();
+            Filme = await filmes.ToListAsync();
         }
     }
 }
