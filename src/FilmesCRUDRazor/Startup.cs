@@ -26,6 +26,13 @@ using Microsoft.EntityFrameworkCore;
 
 // dotnet ef database update
 
+//dotnet tool install --global dotnet-aspnet-codegenerator --version 5.0.0
+
+/*
+dotnet  aspnet-codegenerator razorpage -m Filme -dc FilmeContext -udl -outDir Pages\Filmes --referenceScriptLibraries
+gera páginas razor pages
+*/
+
 using FilmesCRUDRazor.Models;
 
 
