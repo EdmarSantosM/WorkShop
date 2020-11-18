@@ -183,7 +183,6 @@ C:\Users\HomeWork\Desktop\workshop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\F
 C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\FilmesCRUDRazor.csprojAssemblyReference.cache
 C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\FilmesCRUDRazor.AssemblyInfoInputs.cache
 C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\FilmesCRUDRazor.AssemblyInfo.cs
-C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\FilmesCRUDRazor.csproj.CoreCompileInputs.cache
 C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\FilmesCRUDRazor.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\FilmesCRUDRazor.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\FilmesCRUDRazor.RazorAssemblyInfo.cache
@@ -340,7 +339,6 @@ C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\bin\Deb
 C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\staticwebassets\FilmesCRUDRazor.StaticWebAssets.Manifest.cache
 C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\staticwebassets\FilmesCRUDRazor.StaticWebAssets.xml
-C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\scopedcss\bundle\FilmesCRUDRazor.styles.css
 C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\FilmesCRUDRazor.TagHelpers.input.cache
 C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\FilmesCRUDRazor.TagHelpers.output.cache
 C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\FilmesCRUDRazor.RazorCoreGenerate.cache
@@ -361,4 +359,4 @@ C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Deb
 C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\FilmesCRUDRazor.RazorTargetAssemblyInfo.cs
 C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\FilmesCRUDRazor.Views.pdb
 C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\FilmesCRUDRazor.csproj.CopyComplete
-C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\obj\Debug\netcoreapp3.1\FilmesCRUDRazor.genruntimeconfig.cache
+C:\Users\HomeWork\Desktop\NetCore Iniciante\WorkShop\src\FilmesCRUDRazor\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
