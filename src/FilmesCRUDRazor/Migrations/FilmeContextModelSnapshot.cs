@@ -14,11 +14,11 @@ namespace FilmesCRUDRazor.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "5.0.0");
+                .HasAnnotation("ProductVersion", "3.1.9");
 
             modelBuilder.Entity("FilmesCRUDRazor.Models.Filme", b =>
                 {
-                    b.Property<int>("FilmeiD")
+                    b.Property<int>("FilmeId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -28,13 +28,13 @@ namespace FilmesCRUDRazor.Migrations
                     b.Property<string>("Genero")
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal>("Preço")
+                    b.Property<decimal>("Preco")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Titulo")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("FilmeiD");
+                    b.HasKey("FilmeId");
 
                     b.ToTable("Filme");
                 });

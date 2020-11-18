@@ -11,16 +11,16 @@ namespace FilmesCRUDRazor.Migrations
                 name: "Filme",
                 columns: table => new
                 {
-                    FilmeiD = table.Column<int>(type: "INTEGER", nullable: false)
+                    FilmeId = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Titulo = table.Column<string>(type: "TEXT", nullable: true),
-                    DataLancamento = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    Genero = table.Column<string>(type: "TEXT", nullable: true),
-                    Preço = table.Column<decimal>(type: "TEXT", nullable: false)
+                    Titulo = table.Column<string>(nullable: true),
+                    DataLancamento = table.Column<DateTime>(nullable: false),
+                    Genero = table.Column<string>(nullable: true),
+                    Preco = table.Column<decimal>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Filme", x => x.FilmeiD);
+                    table.PrimaryKey("PK_Filme", x => x.FilmeId);
                 });
         }
 

@@ -1,19 +1,32 @@
 using System;
-
-// Criando a classe  com  seus  atributos
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FilmesCRUDRazor.Models
 {
+
+    // Criando a Classe  Filme  com suas propriedades
     public class Filme
     {
-        public int FilmeiD { get; set; }
 
-        public string Titulo { get; set; }
+       public int FilmeId { get; set; }
 
-        public DateTime DataLancamento { get; set; }
+        [Display(Name = "Título")]
+        [Required]
+       public string Titulo { get; set; }
 
-        public string Genero { get; set; }
+        [Display(Name = "Data de Lançamento")]
+        [DisplayFormat(DataFormatString = "{0: dd/MM/yyyy}")]
+       public DateTime DataLancamento { get; set; }
 
-        public decimal Preço { get; set; }
+        [Display(Name = " Gênero")]
+        [Required]
+       public string Genero { get; set; }
+
+        [Display(Name = "Preço")]
+        [DataType(DataType.Currency)]
+        [Column(TypeName = "decimal(18,2)")]
+       public decimal Preco { get; set; }
+        
     }
 }

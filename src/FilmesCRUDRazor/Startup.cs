@@ -9,30 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-//importando  bibliotecas
-
-using Microsoft.EntityFrameworkCore;
-/*  Estava gerando erro de  diretiva baixei do site Nuget 
- (dotnet add package Microsoft.EntityFrameworkCore --version 5.0.0)
-*/
-
-//dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design  -> 
-
-//dotnet add package Microsoft.EntityFrameworkCore.Sqlite ->
-
-//dotnet add package Microsoft.EntityFrameworkCore.Tools --version 5.0.0
-
-// dotnet ef migrations add InitialCreate
-
-// dotnet ef database update
-
-//dotnet tool install --global dotnet-aspnet-codegenerator --version 5.0.0
-
-/*
-dotnet  aspnet-codegenerator razorpage -m Filme -dc FilmeContext -udl -outDir Pages\Filmes --referenceScriptLibraries
-gera páginas razor pages
-*/
-
+//Importar
+using Microsoft.EntityFrameworkCore;  // dotnet tool install --global dotnet-ef  e dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 using FilmesCRUDRazor.Models;
 
 
@@ -50,8 +28,8 @@ namespace FilmesCRUDRazor
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<FilmeContext>(options => options.UseSqlite(Configuration.GetConnectionString("FilmeContext")));
-
+            // Criando um serviço
+            services.AddDbContext<FilmeContext>(options =>options.UseSqlite(Configuration.GetConnectionString("FilmeContext")));
             services.AddRazorPages();
         }
 

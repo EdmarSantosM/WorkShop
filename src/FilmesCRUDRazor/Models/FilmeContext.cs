@@ -1,5 +1,3 @@
-//Declarando as  bibliotecas  que  serão utilizadas
-
 using Microsoft.EntityFrameworkCore;
 
 namespace FilmesCRUDRazor.Models
@@ -8,10 +6,8 @@ namespace FilmesCRUDRazor.Models
     {
         public FilmeContext(DbContextOptions<FilmeContext> options)
         : base(options)
-
         {
-            //Default
-            //  Gera  a estrutura  da tabela de acordo com  propriedade  da classe Filme
+            //Padrão
         }
         public DbSet<Filme> Filme {get; set;}
     }
