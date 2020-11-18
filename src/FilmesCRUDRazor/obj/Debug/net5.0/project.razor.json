@@ -15603,6 +15603,11 @@
   "RootNamespace": "FilmesCRUDRazor",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\HomeWork\\Desktop\\NetCore Iniciante\\WorkShop\\src\\FilmesCRUDRazor\\Pages\\Filmes\\Details.cshtml",
+      "TargetPath": "Pages\\Filmes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\HomeWork\\Desktop\\NetCore Iniciante\\WorkShop\\src\\FilmesCRUDRazor\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15610,6 +15615,21 @@
     {
       "FilePath": "c:\\Users\\HomeWork\\Desktop\\NetCore Iniciante\\WorkShop\\src\\FilmesCRUDRazor\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HomeWork\\Desktop\\NetCore Iniciante\\WorkShop\\src\\FilmesCRUDRazor\\Pages\\Filmes\\Create.cshtml",
+      "TargetPath": "Pages\\Filmes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HomeWork\\Desktop\\NetCore Iniciante\\WorkShop\\src\\FilmesCRUDRazor\\Pages\\Filmes\\Delete.cshtml",
+      "TargetPath": "Pages\\Filmes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HomeWork\\Desktop\\NetCore Iniciante\\WorkShop\\src\\FilmesCRUDRazor\\Pages\\Filmes\\Edit.cshtml",
+      "TargetPath": "Pages\\Filmes\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
