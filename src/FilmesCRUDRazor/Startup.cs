@@ -29,7 +29,7 @@ namespace FilmesCRUDRazor
         public void ConfigureServices(IServiceCollection services)
         {
             // Criando um serviço
-            services.AddDbContext<FilmeContext>(options =>options.UseSqlite(Configuration.GetConnectionString("FilmeContext")));
+            services.AddDbContext<FilmeContext>(options =>options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
             services.AddRazorPages();
         }
 
