@@ -12,9 +12,17 @@ using Microsoft.Extensions.Hosting;
 //importando  bibliotecas
 
 using Microsoft.EntityFrameworkCore;
-/*  Estava gerando erro de  diretiva baixei  do site  Nuget 
+/*  Estava gerando erro de  diretiva baixei do site Nuget 
  (dotnet add package Microsoft.EntityFrameworkCore --version 5.0.0)
 */
+
+//dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design  -> 
+
+
+//dotnet add package Microsoft.EntityFrameworkCore.Sqlite ->
+
+
+//
 
 using FilmesCRUDRazor.Models;
 
@@ -33,6 +41,8 @@ namespace FilmesCRUDRazor
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<FilmeContext>(options => options.UseSqlite(Configuration.GetConnectionString("FilmeContext")));
+
             services.AddRazorPages();
         }
 
