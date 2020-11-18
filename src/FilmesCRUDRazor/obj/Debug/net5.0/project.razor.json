@@ -15623,6 +15623,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\HomeWork\\Desktop\\NetCore Iniciante\\WorkShop\\src\\FilmesCRUDRazor\\Pages\\About.cshtml",
+      "TargetPath": "Pages\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HomeWork\\Desktop\\NetCore Iniciante\\WorkShop\\src\\FilmesCRUDRazor\\Pages\\Contact.cshtml",
+      "TargetPath": "Pages\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\HomeWork\\Desktop\\NetCore Iniciante\\WorkShop\\src\\FilmesCRUDRazor\\Pages\\Filmes\\Delete.cshtml",
       "TargetPath": "Pages\\Filmes\\Delete.cshtml",
       "FileKind": "mvc"
@@ -15630,11 +15640,6 @@
     {
       "FilePath": "c:\\Users\\HomeWork\\Desktop\\NetCore Iniciante\\WorkShop\\src\\FilmesCRUDRazor\\Pages\\Filmes\\Edit.cshtml",
       "TargetPath": "Pages\\Filmes\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\HomeWork\\Desktop\\NetCore Iniciante\\WorkShop\\src\\FilmesCRUDRazor\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
