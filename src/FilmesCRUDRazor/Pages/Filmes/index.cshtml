@@ -18,12 +18,19 @@ Layout = "_Layout";
          </p>
          <hr>
          <form>
-
+            <div class="row">
+               <div class="col-md-6">
+                  <label class="text-left">Gêneros</label>
+                  <select class="form-control" asp-for="FilmePorGenero" asp-items="Model.Generos">
+                     <option value="">Todos - Gêneros</option>
+                  </select>
+               </div>
+            </div>
             <br>
             <div class="row">
                <div class="col-md-6">
                   <label class="text-left">Título do Filme</label>
-                  <input class="form-control" type="text" name="BuscarPorGenero">
+                  <input class="form-control" type="text" name="BuscarPorGeneroNome">
                   <input class="btn btn-outline-primary" type="submit" value="Filtrar" >
                </div>
             </div>
