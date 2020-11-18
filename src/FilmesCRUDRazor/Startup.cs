@@ -9,6 +9,16 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+//importando  bibliotecas
+
+using Microsoft.EntityFrameworkCore;
+/*  Estava gerando erro de  diretiva baixei  do site  Nuget 
+ (dotnet add package Microsoft.EntityFrameworkCore --version 5.0.0)
+*/
+
+using FilmesCRUDRazor.Models;
+
+
 namespace FilmesCRUDRazor
 {
     public class Startup
