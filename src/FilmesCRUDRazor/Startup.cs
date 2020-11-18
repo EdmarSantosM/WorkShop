@@ -22,7 +22,9 @@ using Microsoft.EntityFrameworkCore;
 //dotnet add package Microsoft.EntityFrameworkCore.Sqlite ->
 
 
-//
+//dotnet add package Microsoft.EntityFrameworkCore.Tools --version 5.0.0
+
+// dotnet ef migrations add InitialCreate
 
 using FilmesCRUDRazor.Models;
 
