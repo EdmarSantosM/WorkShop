@@ -50,7 +50,7 @@ if(!String.IsNullOrEmpty(filmePorGenero))
 filmes = filmes.Where(b => b.Genero == filmePorGenero);
 }
 #endregion
-Generos = new SelectList(await queryGenero.Distinct().ToListAsync());                        
+Generos = new  SelectList(await queryGenero.Distinct().ToListAsync());                        
 Filme = await filmes.ToListAsync();
 }
 }
